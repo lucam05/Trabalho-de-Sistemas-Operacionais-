@@ -1,0 +1,61 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "B) Barbeiro Dorminhoco",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "C) Leitores e Escritores",
+            "request": "launch",
+            "mainClass": "MainLeitoresEscritores",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "D) Fumantes",
+            "request": "launch",
+            "mainClass": "MainFumantes",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E) Filósofos",
+            "request": "launch",
+            "mainClass": "MainFilosofos",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "F) Jantar dos Selvagens",
+            "request": "launch",
+            "mainClass": "MainSelvagens",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "G) Três Robôs",
+            "request": "launch",
+            "mainClass": "MainRobos",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Arquivo atual",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+            "console": "integratedTerminal"
+        }
+    ]
+}
